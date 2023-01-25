@@ -1,0 +1,58 @@
+// font text
+@mixin font-titlePrins {
+    font-family: $font-normal;
+    font-size: 30px;
+    font-weight: 500;
+    color: $color-primary;
+}
+
+@mixin font-titleSecund {
+    font-family: $font-normal;
+    font-size: 27px;
+    font-weight: 500;
+    color: $color-secundary;
+}
+
+ @mixin font-subtitle {
+    font-family: $font-normal;
+    font-size: 22px;
+    font-weight: 400;
+    color: $color-secundary;
+}
+
+@mixin font-text {
+    font-family: $font-normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-secundary;
+}
+
+@mixin font-span {
+    font-family: $font-special;
+    font-size: 20px;
+    font-weight: 400;
+    color: $color-tertiary;
+}
+
+// special
+
+@mixin font-sebadevs {
+    font-family: $font-span;
+    font-size: 12px;
+    font-weight: 500;
+    color: $color-tertiary;
+}
+
+@mixin font-footer {
+    font-family: $font-normal;
+    font-size: 12px;
+    font-weight: 400;
+    color: $color-tertiary;
+}
+
+@mixin font-btnLetter{
+    font-family: $font-normal;
+    font-size: 12px;
+    font-weight: 400;
+    color: $color-tertiary;
+}

@@ -1,0 +1,14 @@
+@mixin padding-mobile {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@mixin padding-tablet {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+@mixin padding-desktop {
+    padding-left: 12%;
+    padding-right: 12%;
+}

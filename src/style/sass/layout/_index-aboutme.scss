@@ -1,0 +1,43 @@
+.about-section {
+    height: 650px;
+    padding-top: 100px;
+
+    .about-container{
+        display: grid;
+        grid-template-columns: 60% 40%;
+
+        .about-title{
+            grid-column: 1;
+            margin-left: 325px;
+            @include font-titleSecund;
+
+        }
+
+        p {
+            grid-column: 1;
+            margin-left: 300px;
+            margin-top: 35px;
+            line-height: 27px;
+            @include font-text;
+        }
+
+        .span-img-about {
+            position: absolute;
+            margin-left: 990px;
+            margin-top: 140px;
+            border: solid #5B6DCD 3px;
+            padding: 137px 124px 200px 120px;
+
+            .img-about {
+                position: absolute;
+                margin-left: -180px;
+                margin-top: -166px;
+                object-fit: contain;
+                filter: brightness(60%);
+            }
+            .img-about:hover {
+                filter: brightness(100%);
+            }
+        }
+    }
+}

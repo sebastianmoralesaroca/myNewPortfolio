@@ -1,0 +1,49 @@
+.home-section {
+    height: 780px;
+    margin-top: -75px;
+    background-image: url(./aaa.jpg);
+
+    .home-container {
+        margin-left: 300px;
+        padding-top: 230px;
+
+        .home-span {
+            @include font-span;
+        }
+
+        .home-h1 {
+            @include font-titlePrins;
+            font-size: 70px;
+        }
+
+        .home-h2 {
+            @include font-titleSecund;
+            font-size: 42px;
+            letter-spacing: 9px;
+            font-weight: 600;
+        }
+
+        .home-p {
+            @include font-text;
+            margin-top: 20px;
+        }
+
+        .home-btn {
+            @include btn;
+            margin-top: 70px;
+
+            a {
+                img {
+                    @include btn-img;
+                }
+                span {
+                    @include font-span;
+                    font-size: 15px;
+                }
+            }
+        }
+        .home-btn:hover {
+            background-color: $color-hover;
+        }
+    }
+}

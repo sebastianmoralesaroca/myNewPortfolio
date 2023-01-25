@@ -1,0 +1,148 @@
+.aboutMe-section {
+    background-color: $color-hover;
+    @include padding-mobile;
+    margin-top: -30px;
+    padding-top: 65px;
+    .aboutMe-container {
+        .aboutMe-presentation {
+            text-align: center;
+            .aboutMe-img {
+                width: 140px;
+                height: 140px;
+                border-radius: 100%;
+                border: solid 2px $color-tertiary;
+            }
+            .aboutMe-title {
+                @include font-titlePrins
+            }
+            .aboutMe-subtitle {
+                @include font-subtitle;
+                margin-top: 0px;
+            }
+        }
+        .aboutMe-text {
+            margin-top: 70px;
+            padding-bottom: 50px;
+            .aboutMe-parrafo {
+                @include font-text;
+            }
+        }
+    }
+}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .aboutMe-section {
+        @include padding-tablet;
+
+        .aboutMe-container {
+            margin-top: 40px;
+
+            .aboutMe-presentation {
+                .aboutMe-img {
+                    width: 160px;
+                    height: 160px;
+                }
+                .aboutMe-title {
+                    font-size: $size-titlePrincipal-tablet;
+                }
+                .aboutMe-subtitle {
+                    font-size: $size-subtitle-tablet;
+                }
+            }
+            .aboutMe-text {
+                .aboutMe-parrafo {
+                    font-size: $size-text-tablet;
+                }
+            }
+        }
+    }
+}
+
+// desktop small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {
+    .aboutMe-section {
+        @include padding-desktop;
+        .aboutMe-container {
+            margin-top: 40px;
+            .aboutMe-presentation {
+                .aboutMe-img {
+                    width: 180px;
+                    height: 180px;
+                }
+                .aboutMe-title {
+                    font-size: $size-titlePricipal-desktop;
+                    margin-top: 10px;
+                }
+                .aboutMe-subtitle {
+                    font-size: $size-subtitle-tablet;
+                    margin-top: 10px;
+                }
+            }
+            .aboutMe-text {
+                margin-top: 110px;
+
+                .aboutMe-parrafo {
+                    font-size: $size-text-desktop;
+                    line-height: 30px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+// media desktop tall 
+@media screen and (min-width: $media-tall)  {
+    .aboutMe-section {
+        @include padding-desktop;
+        .aboutMe-container {
+            margin-top: 40px;
+            .aboutMe-presentation {
+                .aboutMe-img {
+                    width: 180px;
+                    height: 180px;
+                }
+                .aboutMe-title {
+                    font-size: $size-titlePricipal-desktop;
+                    margin-top: 10px;
+                }
+                .aboutMe-subtitle {
+                    font-size: $size-subtitle-desktop;
+                    margin-top: 10px;
+                }
+            }
+            .aboutMe-text {
+                margin-top: 110px;
+          
+                .aboutMe-parrafo {
+                    font-size: $size-text-desktop;
+                    line-height: 30px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+//movil rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {
+    .aboutMe-section {
+        .aboutMe-container {
+            .aboutMe-presentation {
+                .aboutMe-img {
+                }
+                .aboutMe-title {
+                }
+                .aboutMe-subtitle {
+                }
+            }
+            .aboutMe-text {
+                .aboutMe-parrafo {
+                }
+            }
+        }
+    }
+}
+

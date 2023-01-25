@@ -1,0 +1,25 @@
+// base
+@import "../sass/base/base-mediaqueris";
+@import "../sass/base/styleDefect";
+@import "../sass/base/base-color";
+@import "../sass/base/base-font";
+
+//utilities
+@import "../sass/utilities/mixin-font";
+@import "../sass/utilities/padding-mediaqueris";
+@import "../sass/utilities/variables-font";
+
+//components
+@import "../sass/components/card-skills";
+@import "../sass/components/btn";
+
+//layout
+@import "../sass/layout/menu";
+@import "../sass/layout/index-home";
+@import "../sass/layout/index-aboutme";
+@import "../sass/layout/index-skills";
+@import "../sass/layout/about";
+@import "../sass/layout/skills";
+@import "../sass/layout/background";
+@import "../sass/layout/footer";
+

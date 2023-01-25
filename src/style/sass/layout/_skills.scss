@@ -1,0 +1,55 @@
+.section-skillsMe {
+    background-color: $color-hover;
+    padding-top: 35px;
+    padding-left: 17%;
+    padding-bottom: 70px;
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+
+    .container-htmlCss {
+        @include card-skills;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .container-javascript {
+        @include card-skills;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .container-tools {
+        @include card-skills;
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .container-lineComand {
+        @include card-skills;
+        margin-top: 30px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .container-wordpress {
+        @include card-skills;
+        margin-top: -170px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .container-programs {
+        @include card-skills;
+        margin-top: -90px;
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .container-idioma {
+        @include card-skills;
+        margin-top:60px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+}

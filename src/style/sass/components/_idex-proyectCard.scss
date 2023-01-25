@@ -1,0 +1,34 @@
+
+@mixin wordCard-mixin {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: solid 2px $color-secundary;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    a {
+        z-index: 1;
+        img {
+            width: 25px;
+            height: 25px;
+            margin-left: 20px;
+        }
+    }
+    h4 {
+        @include font-subtitle;
+        margin-top: 20px;
+    }
+    p {
+        @include font-text;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    span {
+        @include font-span;
+        font-size: 15px;
+    }
+}   
+
+
+

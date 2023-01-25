@@ -1,0 +1,29 @@
+@mixin card-skills {
+    h3 {
+        font-family: $font-normal;
+        font-size: 25px;
+        font-weight: 500;
+        color: $color-primary;
+        display: block;
+        text-decoration: underline;
+        margin-bottom: 30px;
+    }
+    ul {
+        li {
+            margin-top: 15px;
+            img {
+                width: 25px;
+                height: 25px;
+                display: inline;
+                vertical-align: middle;
+            }
+            p {
+                font-family: $font-normal;
+                font-size: 15px;
+                font-weight: 400;
+                color: $color-secundary;
+                display: inline;
+            }
+        }
+    }
+}

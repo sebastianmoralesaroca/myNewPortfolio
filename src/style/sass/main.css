@@ -1,0 +1,619 @@
+/*
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {}
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
+
+// Media Desktop Tall
+@media screen and (min-width: $media-tall)  {}
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.home-miniMenu {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #102F43;
+  padding-top: 8px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.home-miniMenu .span-home {
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+  font-weight: 500;
+  color: #3498db;
+}
+.home-miniMenu a .img-menu {
+  width: 18px;
+  height: 18px;
+  margin: 2%;
+}
+
+@media screen and (min-width: 575px) and (max-width: 990px) and (orientation: portrait) {
+  .home-miniMenu {
+    background-color: #102F43;
+  }
+  .home-miniMenu .span-home {
+    font-size: 14px;
+  }
+  .home-miniMenu .adornment {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px) and (orientation: portrait) {
+  .home-miniMenu {
+    background-color: #102F43;
+    padding-top: 15px;
+  }
+  .home-miniMenu .span-home {
+    font-size: 16px;
+  }
+  .home-miniMenu .adornment {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home-miniMenu {
+    background-color: #102F43;
+    padding-top: 15px;
+  }
+  .home-miniMenu .span-home {
+    font-size: 18px;
+  }
+  .home-miniMenu .adornment {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 1200px) and (orientation: landscape) {
+  .home-miniMenu {
+    background-color: #102F43;
+    padding-top: 10px;
+  }
+  .home-miniMenu .span-home {
+    font-size: 14px;
+  }
+  .home-miniMenu .adornment {
+    width: 80px;
+  }
+}
+.home-section {
+  height: 780px;
+  margin-top: -75px;
+  background-image: url(./aaa.jpg);
+}
+.home-section .home-container {
+  margin-left: 300px;
+  padding-top: 230px;
+}
+.home-section .home-container .home-span {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3498db;
+}
+.home-section .home-container .home-h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ecf0f1;
+  font-size: 70px;
+}
+.home-section .home-container .home-h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  color: #979a9a;
+  font-size: 42px;
+  letter-spacing: 9px;
+  font-weight: 600;
+}
+.home-section .home-container .home-p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+  margin-top: 20px;
+}
+.home-section .home-container .home-btn {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: solid 0.125rem #3498db;
+  padding: 0.875rem;
+  margin-top: 1.5625rem;
+  margin-right: 1.0625rem;
+  margin-top: 70px;
+}
+.home-section .home-container .home-btn a img {
+  max-width: 1.375rem;
+  max-height: 1.375rem;
+  vertical-align: middle;
+  margin-right: 0.75rem;
+  background-color: transparent;
+}
+.home-section .home-container .home-btn a span {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3498db;
+  font-size: 15px;
+}
+.home-section .home-container .home-btn:hover {
+  background-color: #102F43;
+}
+
+.about-section {
+  height: 650px;
+  padding-top: 100px;
+}
+.about-section .about-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.about-section .about-container .about-title {
+  grid-column: 1;
+  margin-left: 325px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  color: #979a9a;
+}
+.about-section .about-container p {
+  grid-column: 1;
+  margin-left: 300px;
+  margin-top: 35px;
+  line-height: 27px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+.about-section .about-container .span-img-about {
+  position: absolute;
+  margin-left: 990px;
+  margin-top: 140px;
+  border: solid #5B6DCD 3px;
+  padding: 137px 124px 200px 120px;
+}
+.about-section .about-container .span-img-about .img-about {
+  position: absolute;
+  margin-left: -180px;
+  margin-top: -166px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  filter: brightness(60%);
+}
+.about-section .about-container .span-img-about .img-about:hover {
+  filter: brightness(100%);
+}
+
+.skills-section .skills-container {
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 120px;
+}
+.skills-section .skills-container h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  color: #979a9a;
+}
+.skills-section .skills-container ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.skills-section .skills-container ul li {
+  display: inline;
+}
+.skills-section .skills-container ul li img {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.aboutMe-section {
+  background-color: #102F43;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: -30px;
+  padding-top: 65px;
+}
+.aboutMe-section .aboutMe-container .aboutMe-presentation {
+  text-align: center;
+}
+.aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  border: solid 2px #3498db;
+}
+.aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ecf0f1;
+}
+.aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #979a9a;
+  margin-top: 0px;
+}
+.aboutMe-section .aboutMe-container .aboutMe-text {
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+.aboutMe-section .aboutMe-container .aboutMe-text .aboutMe-parrafo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+
+@media screen and (min-width: 575px) and (max-width: 990px) and (orientation: portrait) {
+  .aboutMe-section {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .aboutMe-section .aboutMe-container {
+    margin-top: 40px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-img {
+    width: 160px;
+    height: 160px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-title {
+    font-size: 37px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-subtitle {
+    font-size: 17px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-text .aboutMe-parrafo {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px) and (orientation: portrait) {
+  .aboutMe-section {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .aboutMe-section .aboutMe-container {
+    margin-top: 40px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-img {
+    width: 180px;
+    height: 180px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-title {
+    font-size: 45px;
+    margin-top: 10px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-subtitle {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-text {
+    margin-top: 110px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-text .aboutMe-parrafo {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .aboutMe-section {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .aboutMe-section .aboutMe-container {
+    margin-top: 40px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-img {
+    width: 180px;
+    height: 180px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-title {
+    font-size: 45px;
+    margin-top: 10px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-presentation .aboutMe-subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-text {
+    margin-top: 110px;
+  }
+  .aboutMe-section .aboutMe-container .aboutMe-text .aboutMe-parrafo {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+}
+.section-skillsMe {
+  background-color: #102F43;
+  padding-top: 35px;
+  padding-left: 17%;
+  padding-bottom: 70px;
+  padding-top: 65px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+}
+.section-skillsMe .container-htmlCss {
+  grid-column: 1;
+  grid-row: 1;
+}
+.section-skillsMe .container-htmlCss h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ecf0f1;
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.section-skillsMe .container-htmlCss ul li {
+  margin-top: 15px;
+}
+.section-skillsMe .container-htmlCss ul li img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+.section-skillsMe .container-htmlCss ul li p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979a9a;
+  display: inline;
+}
+.section-skillsMe .container-javascript {
+  grid-column: 2;
+  grid-row: 1;
+}
+.section-skillsMe .container-javascript h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ecf0f1;
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.section-skillsMe .container-javascript ul li {
+  margin-top: 15px;
+}
+.section-skillsMe .container-javascript ul li img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+.section-skillsMe .container-javascript ul li p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979a9a;
+  display: inline;
+}
+.section-skillsMe .container-tools {
+  grid-column: 3;
+  grid-row: 1;
+}
+.section-skillsMe .container-tools h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ecf0f1;
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.section-skillsMe .container-tools ul li {
+  margin-top: 15px;
+}
+.section-skillsMe .container-tools ul li img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+.section-skillsMe .container-tools ul li p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979a9a;
+  display: inline;
+}
+.section-skillsMe .container-lineComand {
+  margin-top: 30px;
+  grid-column: 1;
+  grid-row: 2;
+}
+.section-skillsMe .container-lineComand h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ecf0f1;
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.section-skillsMe .container-lineComand ul li {
+  margin-top: 15px;
+}
+.section-skillsMe .container-lineComand ul li img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+.section-skillsMe .container-lineComand ul li p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979a9a;
+  display: inline;
+}
+.section-skillsMe .container-wordpress {
+  margin-top: -170px;
+  grid-column: 2;
+  grid-row: 2;
+}
+.section-skillsMe .container-wordpress h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ecf0f1;
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.section-skillsMe .container-wordpress ul li {
+  margin-top: 15px;
+}
+.section-skillsMe .container-wordpress ul li img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+.section-skillsMe .container-wordpress ul li p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979a9a;
+  display: inline;
+}
+.section-skillsMe .container-programs {
+  margin-top: -90px;
+  grid-column: 3;
+  grid-row: 2;
+}
+.section-skillsMe .container-programs h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ecf0f1;
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.section-skillsMe .container-programs ul li {
+  margin-top: 15px;
+}
+.section-skillsMe .container-programs ul li img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+.section-skillsMe .container-programs ul li p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979a9a;
+  display: inline;
+}
+.section-skillsMe .container-idioma {
+  margin-top: 60px;
+  grid-column: 2;
+  grid-row: 2;
+}
+.section-skillsMe .container-idioma h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ecf0f1;
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.section-skillsMe .container-idioma ul li {
+  margin-top: 15px;
+}
+.section-skillsMe .container-idioma ul li img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+.section-skillsMe .container-idioma ul li p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #979a9a;
+  display: inline;
+}
+
+.about-section {
+  background-color: #0b1e2a;
+}
+
+.skills-section {
+  background-color: #0b1e2a;
+}
+
+.end {
+  height: 50px;
+  background-color: #0c2431;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+}
+
+@media screen and (min-width: 575px) and (max-width: 990px) and (orientation: portrait) {
+  .end {
+    height: 100px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px) and (orientation: portrait) {
+  .end {
+    height: 110px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .end {
+    height: 120px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 1200px) and (orientation: landscape) {
+  .end {
+    height: 70px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3498db;
+  }
+}/*# sourceMappingURL=main.css.map */
