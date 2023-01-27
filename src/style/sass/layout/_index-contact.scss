@@ -1,0 +1,36 @@
+
+.contact-section {
+    height: 500px;
+    padding-top: 200px;
+        .contact-grid {
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        .contact-container {
+            grid-column: 2;
+            text-align: center;
+            .contact-span {
+                @include font-span;
+            }
+            .contact-title {
+                @include font-titlePrins;
+                margin-top: 0.4375rem;
+            }
+            .contact-p {
+                @include font-text;
+                margin-top: 1.25rem;
+            }
+            .contact-btn {
+                @include btn;
+                margin-top: 3.4375rem;
+                font-family: $font-special;
+                a {color:$color-tertiary;}
+                    .contact-imgBtn {
+                        @include btn-img;
+                    }
+            }
+            .contact-btn:hover {
+                background-color: $color-hover;
+            }
+        }
+    }
+}

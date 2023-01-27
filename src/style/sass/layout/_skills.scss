@@ -1,3 +1,12 @@
+.title-skills {
+    background-color: $color-hover;
+
+    h2 {
+        @include font-titlePrins;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
 .section-skillsMe {
     background-color: $color-hover;
     padding-top: 35px;

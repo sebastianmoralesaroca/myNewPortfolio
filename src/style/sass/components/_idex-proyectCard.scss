@@ -1,34 +1,36 @@
-
-@mixin wordCard-mixin {
-    width: 300px;
+.proyect-container {
+    border: solid 2px $color-secundary;
+    width: 350px;
     height: 300px;
     display: inline-block;
-    border: solid 2px $color-secundary;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 30px;
-    a {
-        z-index: 1;
-        img {
-            width: 25px;
-            height: 25px;
-            margin-left: 20px;
-        }
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+    img {
+        width: 20px;
+        height: 20px;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
+
     h4 {
         @include font-subtitle;
-        margin-top: 20px;
+        margin-top: 10px;
     }
+
     p {
         @include font-text;
+        font-size: 15px;
         margin-top: 20px;
         margin-bottom: 30px;
     }
+
     span {
         @include font-span;
-        font-size: 15px;
+        font-size: 13px;
     }
-}   
-
-
-
+}

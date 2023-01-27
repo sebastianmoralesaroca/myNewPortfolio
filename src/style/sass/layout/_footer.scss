@@ -1,45 +1,8 @@
-// media mobile
-.end {
-    height: 50px;
+.footer {
+    height: 70px;
     background-color: $color-footer;
+    @include font-footer;
     display: flex;
     justify-content: center;
     align-items: center;
-    @include font-footer;
-}
-
-// media tablet
-@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
-   
-    .end {
-        height: 100px;
-        font-size: 14px;
-    }
-}
-
-// media desktop small
-@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {
-  
-    .end {
-        height: 110px;
-        font-size: 15px;
-    }
-}
-
-// media desktop tall
-@media screen and (min-width: $media-tall)  {
-   
-    .end {
-        height: 120px;
-        font-size: 15px;
-    }
-}
-
-// media landscape
-@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {
-    
-    .end {
-        height: 70px;
-        @include font-footer;
-    }
 }

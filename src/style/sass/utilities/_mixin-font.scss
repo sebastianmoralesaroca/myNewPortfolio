@@ -1,7 +1,7 @@
 // font text
 @mixin font-titlePrins {
     font-family: $font-normal;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 500;
     color: $color-primary;
 }
@@ -45,7 +45,7 @@
 
 @mixin font-footer {
     font-family: $font-normal;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
     color: $color-tertiary;
 }

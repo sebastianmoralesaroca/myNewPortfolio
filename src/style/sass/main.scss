@@ -10,16 +10,22 @@
 @import "../sass/utilities/variables-font";
 
 //components
-@import "../sass/components/card-skills";
 @import "../sass/components/btn";
+@import "../sass/components/card-skills";
+@import "../sass/components/idex-proyectCard";
 
 //layout
 @import "../sass/layout/menu";
+@import "../sass/layout/span-rrss";
 @import "../sass/layout/index-home";
 @import "../sass/layout/index-aboutme";
 @import "../sass/layout/index-skills";
+@import "../sass/layout/index-proyect";
+@import "../sass/layout/index-contact";
 @import "../sass/layout/about";
 @import "../sass/layout/skills";
+@import "../sass/layout/work";
+@import "../sass/layout/network";
 @import "../sass/layout/background";
 @import "../sass/layout/footer";
 
