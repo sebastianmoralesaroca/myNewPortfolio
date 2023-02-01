@@ -1,10 +1,11 @@
 .title-skills {
     background-color: $color-hover;
+    margin-top: -50px;
 
     h2 {
         @include font-titlePrins;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 }
 .section-skillsMe {
@@ -62,3 +63,133 @@
         grid-row: 2;
     }
 }
+
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .title-skills {
+        @include padding-mobile;
+        h2 {}
+    }
+    .section-skillsMe {
+        display: block;
+        .container-htmlCss {
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-javascript {
+            margin-top: 50px;
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-tools {
+            margin-top: 50px;
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-lineComand {
+            margin-top: 50px;
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-wordpress {
+            margin-top: 50px;
+            img {
+                margin-right: 20px;
+            }
+        }
+    
+        .container-programs {
+            margin-top: 50px;
+            img {
+                margin-right: 20px;
+            }
+        }
+    
+        .container-idioma {
+            margin-top: 50px;
+            img {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .title-skills {
+        @include padding-tablet;
+        h2 {}
+    }
+    .section-skillsMe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr 1fr;
+        .container-htmlCss {
+            grid-column: 1;
+            grid-row: 1;
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-javascript {
+            grid-column: 2;
+            grid-row: 1;
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-tools {
+            grid-column: 1;
+            grid-row: 2;
+            margin-top: 40px;
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-lineComand {
+            grid-column: 2;
+            grid-row: 2;
+            margin-top: -160px;
+            img {
+                margin-right: 20px;
+            }
+        }
+        .container-wordpress {
+            grid-column: 2;
+            grid-row: 2;
+            margin-top: 80px;
+            img {
+                margin-right: 20px;
+            }
+        }
+    
+        .container-programs {
+            grid-column: 1;
+            grid-row: 3;
+            margin-top: -40px;
+            img {
+                margin-right: 20px;
+            }
+        }
+    
+        .container-idioma {
+            grid-column: 2;
+            grid-row: 3;
+            margin-top: -40px;
+            img {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
+
+    // Media Movil Rotate
+    @media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}

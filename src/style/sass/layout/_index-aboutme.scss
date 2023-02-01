@@ -41,3 +41,103 @@
         }
     }
 }
+
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .about-section {
+        height: 1100px;
+        padding-top: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+        .about-container{
+            display: inline-block;
+            .about-title{
+                margin-left: 5%;
+            }
+            p {
+                margin-left: 5%;
+            }
+            .span-img-about {
+                margin-left: 70px;
+                margin-top: 50px;
+                .img-about {
+
+                }
+                .img-about:hover {}
+            }
+        }
+    }
+}
+
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .about-section {
+        height: 700px;
+        padding-top: 50px;
+        .about-container{
+            @include padding-tablet;
+            .about-title{
+                margin-left: 5%;
+            }
+            p {
+                margin-left: 5%;
+            }
+            .span-img-about {
+                margin-left: 58%;
+                margin-top: 100px;
+                .img-about {}
+                .img-about:hover {}
+            }
+        }
+    }
+}
+
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {
+    .about-section {
+        height: 700px;
+        padding-top: 50px;
+        .about-container{
+            @include padding-tablet;
+            .about-title{
+                margin-left: 5%;
+            }
+            p {
+                margin-left: 5%;
+            }
+            .span-img-about {
+                margin-left: 58%;
+                margin-top: 100px;
+                .img-about {}
+                .img-about:hover {}
+            }
+        }
+    }
+}
+
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {
+    .about-section {
+        height: 700px;
+        padding-top: 50px;
+        .about-container{
+            @include padding-tablet;
+            .about-title{
+                margin-left: 5%;
+            }
+            p {
+                margin-left: 5%;
+            }
+            .span-img-about {
+                margin-left: 58%;
+                margin-top: 100px;
+                .img-about {}
+                .img-about:hover {}
+            }
+        }
+    }
+}

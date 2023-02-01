@@ -14,10 +14,7 @@ $media-tall: 1200px;
 // Media Desktop Small
 @media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
 
-// Media Desktop Tall
-@media screen and (min-width: $media-tall)  {}
-
-// Media Movil Rotate
-@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
+    // Media Movil Rotate
+    @media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
 
 */

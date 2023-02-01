@@ -10,3 +10,44 @@
         margin-bottom: 35px;
     }
 }
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .proyect-section {
+        @include padding-mobile;
+        padding-top: 30px;
+        h3 {}
+    }
+}
+
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .proyect-section {
+        @include padding-mobile;
+        padding-top: 60px;
+        h3 {}
+    }
+}
+
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {
+    .proyect-section {
+        padding-top: 60px;
+        h3 {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {
+    .proyect-section {
+        padding-top: 60px;
+        h3 {
+            padding-bottom: 20px;
+        }
+    }
+}

@@ -1,5 +1,12 @@
-
 .contact-section {
+    background:
+    linear-gradient(
+      rgba(11, 30, 42, 16),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../../../public/img/fondo-contact.jpg);
+    background-size: 100%;
+    background-position: center;
     height: 500px;
     padding-top: 200px;
         .contact-grid {
@@ -21,7 +28,7 @@
             }
             .contact-btn {
                 @include btn;
-                margin-top: 3.4375rem;
+                margin-top: 100px;
                 font-family: $font-special;
                 a {color:$color-tertiary;}
                     .contact-imgBtn {
@@ -32,5 +39,62 @@
                 background-color: $color-hover;
             }
         }
+    }
+}
+
+
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .contact-section {
+        @include padding-mobile;
+        padding-top: 130px;
+        background-size: cover;
+        background-position: -280px;
+        .contact-grid {
+            display: block;
+        .contact-container {
+            .contact-span {}
+            .contact-title {}
+            .contact-p {
+                margin-top: 35px;
+                line-height: 25px;
+            }
+            .contact-btn {
+                margin-top: 85px;
+                a {}
+                    .contact-imgBtn {}
+            }
+            .contact-btn:hover {}
+        }
+    }
+}
+}
+
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .contact-section {
+        @include padding-tablet;
+        padding-top: 200px;
+        background-size: cover;
+        background-position: -280px;
+        .contact-grid {
+            display: block;
+        .contact-container {
+            .contact-span {}
+            .contact-title {}
+            .contact-p {
+                margin-top: 35px;
+                line-height: 25px;
+            }
+            .contact-btn {
+                margin-top: 85px;
+                a {}
+                    .contact-imgBtn {}
+            }
+            .contact-btn:hover {}
+        }
+    }
     }
 }

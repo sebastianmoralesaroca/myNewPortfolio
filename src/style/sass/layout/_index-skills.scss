@@ -28,3 +28,23 @@
         }
     }
 }
+
+
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .skills-section {
+        .skills-container {
+            margin-left: 3%;
+            margin-right: 3%;
+            h3 {
+            }
+            ul {
+                li{
+                    img {
+                    }
+                }
+            }
+        }
+    }
+}

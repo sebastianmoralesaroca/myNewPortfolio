@@ -9,6 +9,9 @@
     .span-home {
         @include font-sebadevs;
     }
+    .adornment {
+        width: 200px;
+    }
     a {
         .img-menu {
             width: 18px;
@@ -17,54 +20,17 @@
         }
     }
 }
-// media tablet
-@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
-   
-    .home-miniMenu {
-        background-color: $color-hover;
-        .span-home {
-            font-size: 14px;
-        }
-        .adornment {
-            width: 100px;
-        }
-        a {
-            .img-menu {}
-        }
 
-    }
-}
 
-// media desktop small
-@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {
-   
-    .home-miniMenu {
-        background-color: $color-hover;
-        padding-top: 15px;
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .home-miniMenu{
         .span-home {
             font-size: 16px;
         }
         .adornment {
-            width: 100px;
-        }
-        a {
-            .img-menu {}
-        }
-
-    }
-}
-
-// media desktop tall
-@media screen and (min-width: $media-tall) {
-   
-    .home-miniMenu {
-        background-color: $color-hover;
-        padding-top: 15px;
-        .span-home {
-            font-size: 18px;
-        }
-        .adornment {
-            width: 200px;
+            width: 10px;
         }
         a {
             .img-menu {}
@@ -72,17 +38,32 @@
     }
 }
 
-// medaia mobile landscape
-@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {
-    
-    .home-miniMenu {
-        background-color: $color-hover;
-        padding-top: 10px;
+
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .home-miniMenu{
         .span-home {
-            font-size: 14px;
+            font-size: 20px;
         }
         .adornment {
-            width: 80px;
+            width: 60px;
+        }
+        a {
+            .img-menu {}
+        }
+    }
+}
+
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {
+    .home-miniMenu{
+        .span-home {
+            font-size: 20px;
+        }
+        .adornment {
+            width: 150px;
         }
         a {
             .img-menu {}
