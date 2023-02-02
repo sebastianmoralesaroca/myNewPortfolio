@@ -3,7 +3,7 @@
     flex-direction: column;
     position: fixed;
     margin-left: 80px;
-    margin-top: 350px;
+    margin-top: 300px;
 
     img {
         width: 20px;
@@ -81,7 +81,7 @@
     @media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {
         .span-rrss {
             margin-left: 20px;
-            margin-top: 300px;
+            margin-top: 280px;
             img {}
             .rrss-line {}
         }

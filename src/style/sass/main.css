@@ -148,7 +148,7 @@
   flex-direction: column;
   position: fixed;
   margin-left: 80px;
-  margin-top: 350px;
+  margin-top: 300px;
 }
 .span-rrss img {
   width: 20px;
@@ -198,7 +198,7 @@
 @media screen and (min-width: 200px) and (max-width: 1200px) and (orientation: landscape) {
   .span-rrss {
     margin-left: 20px;
-    margin-top: 300px;
+    margin-top: 280px;
   }
 }
 .home-section {
@@ -374,7 +374,7 @@
   }
 }
 .about-section {
-  height: 650px;
+  height: 700px;
   padding-top: 100px;
 }
 .about-section .about-container {
@@ -420,7 +420,7 @@
 
 @media screen and (max-width: 575px) and (orientation: portrait) {
   .about-section {
-    height: 1100px;
+    height: 1400px;
     padding-top: 50px;
     padding-left: 3%;
     padding-right: 3%;
@@ -441,7 +441,7 @@
 }
 @media screen and (min-width: 575px) and (max-width: 990px) and (orientation: portrait) {
   .about-section {
-    height: 700px;
+    height: 1000px;
     padding-top: 50px;
   }
   .about-section .about-container {
@@ -461,7 +461,7 @@
 }
 @media screen and (min-width: 990px) and (max-width: 1200px) and (orientation: portrait) {
   .about-section {
-    height: 700px;
+    height: 800px;
     padding-top: 50px;
   }
   .about-section .about-container {
@@ -481,7 +481,7 @@
 }
 @media screen and (min-width: 200px) and (max-width: 1200px) and (orientation: landscape) {
   .about-section {
-    height: 700px;
+    height: 750px;
     padding-top: 50px;
   }
   .about-section .about-container {
@@ -501,7 +501,7 @@
 }
 .skills-section .skills-container {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 100px;
   margin-left: 15%;
   margin-right: 15%;
   padding-bottom: 120px;

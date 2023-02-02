@@ -1,5 +1,5 @@
 .about-section {
-    height: 650px;
+    height: 700px;
     padding-top: 100px;
 
     .about-container{
@@ -46,7 +46,7 @@
 // Media Mobile Default
 @media screen and (max-width: $media-small) and (orientation:portrait) {
     .about-section {
-        height: 1100px;
+        height: 1400px;
         padding-top: 50px;
         padding-left: 3%;
         padding-right: 3%;
@@ -74,7 +74,7 @@
 // Media Tablet
 @media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
     .about-section {
-        height: 700px;
+        height: 1000px;
         padding-top: 50px;
         .about-container{
             @include padding-tablet;
@@ -98,7 +98,7 @@
 // Media Desktop Small
 @media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {
     .about-section {
-        height: 700px;
+        height: 800px;
         padding-top: 50px;
         .about-container{
             @include padding-tablet;
@@ -122,7 +122,7 @@
 // Media Movil Rotate
 @media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {
     .about-section {
-        height: 700px;
+        height: 750px;
         padding-top: 50px;
         .about-container{
             @include padding-tablet;
