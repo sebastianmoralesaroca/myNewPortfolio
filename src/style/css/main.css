@@ -1333,6 +1333,68 @@
     margin-right: 5%;
   }
 }
+.contact-pageSection {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(11, 30, 42)), to(rgba(0, 0, 0, 0.5))), url(../../../public/img/fondo-pageContact.jpg);
+  background: linear-gradient(rgb(11, 30, 42), rgba(0, 0, 0, 0.5)), url(../../../public/img/fondo-pageContact.jpg);
+  background-size: 100%;
+  background-position: center;
+  margin-top: -50px;
+  padding-top: 100px;
+  height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact-pageSection .contact-pageContainer {
+  width: 500px;
+  border: solid 1px #0b1e2a;
+  background-color: #0b1e2a;
+}
+.contact-pageSection .contact-pageContainer .formulario {
+  padding-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.contact-pageSection .contact-pageContainer .formulario h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: #ecf0f1;
+  text-align: center;
+}
+.contact-pageSection .contact-pageContainer .formulario p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #979a9a;
+  text-align: center;
+}
+.contact-pageSection .contact-pageContainer .formulario .name {
+  margin-top: 20px;
+  border: none;
+}
+.contact-pageSection .contact-pageContainer .formulario .name label {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+.contact-pageSection .contact-pageContainer .formulario .name #name {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+  width: 100%;
+  height: 30px;
+  background-color: #102F43;
+  border: none;
+  border-radius: 3px;
+}
 .about-section {
   background-color: #0b1e2a;
 }
