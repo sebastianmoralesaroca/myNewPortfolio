@@ -1209,14 +1209,15 @@
   background: linear-gradient(rgb(11, 30, 42), rgba(0, 0, 0, 0.5)), url(../../../public/img/fondo-pageContact.jpg);
   background-size: 100%;
   background-position: center;
-  margin-top: -50px;
+  margin-top: -60px;
   padding-top: 100px;
-  height: 750px;
+  height: 800px;
   display: flex;
   justify-content: center;
 }
 .contact-pageSection .contact-pageContainer {
   width: 500px;
+  height: 730px;
   border: solid 1px #0b1e2a;
   background-color: #0b1e2a;
 }
@@ -1251,17 +1252,150 @@
   color: #979a9a;
 }
 .contact-pageSection .contact-pageContainer .formulario .name #name {
-  display: block;
   font-family: "Ubuntu", sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: #3498db;
+  display: block;
   width: 100%;
   height: 30px;
   background-color: #102F43;
   border: none;
   border-radius: 3px;
 }
+.contact-pageSection .contact-pageContainer .formulario .email {
+  margin-top: 20px;
+  border: none;
+}
+.contact-pageSection .contact-pageContainer .formulario .email label {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+.contact-pageSection .contact-pageContainer .formulario .email #email {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #102F43;
+  border: none;
+  border-radius: 3px;
+}
+.contact-pageSection .contact-pageContainer .formulario .telephone {
+  margin-top: 20px;
+  border: none;
+}
+.contact-pageSection .contact-pageContainer .formulario .telephone label {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+.contact-pageSection .contact-pageContainer .formulario .telephone #number {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #102F43;
+  border: none;
+  border-radius: 3px;
+}
+.contact-pageSection .contact-pageContainer .formulario .website {
+  margin-top: 20px;
+  border: none;
+}
+.contact-pageSection .contact-pageContainer .formulario .website label {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+.contact-pageSection .contact-pageContainer .formulario .website #website {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #102F43;
+  border: none;
+  border-radius: 3px;
+}
+.contact-pageSection .contact-pageContainer .formulario .asunto {
+  margin-top: 20px;
+  border: none;
+}
+.contact-pageSection .contact-pageContainer .formulario .asunto label {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+.contact-pageSection .contact-pageContainer .formulario .asunto #asunto {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #102F43;
+  border: none;
+  border-radius: 3px;
+}
+.contact-pageSection .contact-pageContainer .formulario .message {
+  margin-top: 20px;
+  border: none;
+}
+.contact-pageSection .contact-pageContainer .formulario .message label {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #979a9a;
+}
+.contact-pageSection .contact-pageContainer .formulario .message #textarea {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #102F43;
+  border: none;
+  border-radius: 3px;
+  height: 100px;
+}
+.contact-pageSection .contact-pageContainer .formulario #enviar {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: solid 0.125rem #3498db;
+  padding: 0.875rem;
+  margin-top: 1.5625rem;
+  margin-right: 1.0625rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3498db;
+}
+.contact-pageSection .contact-pageContainer .formulario #enviar:hover {
+  background-color: #102F43;
+}
+
 .about-section {
   background-color: #0b1e2a;
 }

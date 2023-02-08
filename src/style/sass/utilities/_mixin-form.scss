@@ -1,0 +1,9 @@
+@mixin mxn-form {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: $color-hover;
+    border: none;
+    border-radius: 3px;
+}
+

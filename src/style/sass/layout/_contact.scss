@@ -7,14 +7,15 @@
     url(../../../public/img/fondo-pageContact.jpg);
     background-size: 100%;
     background-position: center;
-    margin-top: -50px;
+    margin-top: -60px;
     padding-top: 100px;
-    height: 750px;
+    height: 800px;
     display: flex;
     justify-content: center;
 
     .contact-pageContainer {
         width: 500px;
+        height: 730px;
         border: solid 1px $color-backgr;
         background-color: $color-backgr;
 
@@ -43,42 +44,88 @@
                 }
 
                 #name {
-                    display: block;
                     @include font-btnLetter;
-                    width: 100%;
-                    height: 30px;
-                    background-color: $color-hover;
-                    border: none;
-                    border-radius: 3px;
+                    @include mxn-form;
                 }
             }
 
             .email {
+                margin-top: 20px;
+                border: none;
 
-                label {}
+                label {
+                    display: block;
+                    @include font-text;
+                }
 
-                #email {}
+                #email {
+                    @include font-btnLetter;
+                    @include mxn-form;
+                }
             }
 
             .telephone {
+                margin-top: 20px;
+                border: none;
 
-                label {}
+                label {
+                    display: block;
+                    @include font-text;
+                }
 
-                #telephone {}
+                #number {
+                    @include font-btnLetter;
+                    @include mxn-form;
+                }
             }
             .website {
-                label {}
-                #website {}
+                margin-top: 20px;
+                border: none;
+
+                label {
+                    display: block;
+                    @include font-text;
+                }
+
+                #website {
+                    @include font-btnLetter;
+                    @include mxn-form;
+                }
             }
             .asunto {
-                label {}
-                #asunto {}
+                margin-top: 20px;
+                border: none;
+
+                label {
+                    display: block;
+                    @include font-text;
+                }
+                #asunto {
+                    @include font-btnLetter;
+                    @include mxn-form;
+                }
             }
             .message {
-                label {}
-                #label {}
+                margin-top: 20px;
+                border: none;
+
+                label {
+                    display: block;
+                    @include font-text;
+                }
+                #textarea {
+                    @include font-btnLetter;
+                    @include mxn-form;
+                    height: 100px;
+                }
             }
-            #enviar {}
+            #enviar {
+                @include btn;
+                @include font-btnLetter;
+            &:hover {
+                background-color: $color-hover;
+            }
+            }
         }
     }
 }
